@@ -12,7 +12,7 @@ div{
 #img{
     background-color: rgb(236, 11, 11);
     border-radius: 10px;
-    box-shadow: 5px 10px 10px;
+    box-shadow: 4px 6px 10px;
 }
 img{
     width:100%;
@@ -44,7 +44,7 @@ img{
     color: white;
 }
 #h2-container{
-    background-color: rgb(56, 26, 15);
+    background-image: linear-gradient(to right, black, rgb(97, 15, 28));
     height: 100px;
     width: 80%;
     padding: 40% 0;
