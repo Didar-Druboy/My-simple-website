@@ -1,3 +1,4 @@
+*{margin: 0; padding: 0;}
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 body{
     font-family: "Poppins", sans-serif;
@@ -21,6 +22,7 @@ img{
     background-color: rgba(235, 247, 222, 0.42);
     width: 100%;
     height: 100vh;
+    /* display: grid; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -40,4 +42,40 @@ img{
 .custom-button:hover{
     background-size: 100%;
     color: white;
+}
+#h2-container{
+    background-color: rgb(56, 26, 15);
+    height: 100px;
+    width: 80%;
+    padding: 40% 0;
+    margin: 0 auto;
+}
+.programmer{
+    text-align: center;
+    color: red;
+    font-style: italic;
+    font-size: 50px;
+    font-weight: lighter;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: overline;
+    /* margin: auto 10px; */
+    padding: ;
+    
+}
+.btn{
+    display: block;
+    padding: 10px 25px;
+    font-size: 20px;
+    margin: 15px auto;
+    width: 70%;
+    border-radius: 10px;
+    background-color: rgb(31, 14, 8);
+    color:#fff;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: #fff;
+    color: rgb(31, 14, 8);
+    transition: all 0.5s ease;
+    font-weight: bold;
 }
